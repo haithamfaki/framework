@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    top: 0;
+    left: 250px; /* Adjust this to match the width of the sidebar */
+    right: 0;
+    height: 60px; /* Adjust as needed */
+    box-sizing: border-box;
+    z-index: 1000;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-right .header-icon {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+     /* Replace 'hai.jpg' with your image file name and path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ensures full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+.content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px;
+}
